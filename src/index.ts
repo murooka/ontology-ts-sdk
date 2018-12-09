@@ -17,7 +17,7 @@
  */
 
 import { Account } from './account';
-import { Claim } from './claim';
+import { Claim, retrievePublicKeyState } from './claim';
 import * as CONST from './consts';
 import * as Crypto from './crypto';
 import { Identity } from './identity';
@@ -138,6 +138,7 @@ export {
     Account,
     Identity,
     Claim,
+    retrievePublicKeyState,
     DDO,
     DDOAttribute,
     Transaction,
