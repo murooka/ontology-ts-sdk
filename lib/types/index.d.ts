@@ -1,5 +1,5 @@
 import { Account } from './account';
-import { Claim, retrievePublicKeyState } from './claim';
+import { Claim, retrievePublicKey } from './claim';
 import * as CONST from './consts';
 import * as Crypto from './crypto';
 import { Identity } from './identity';
@@ -68,4 +68,4 @@ declare class ONT {
     setSocketPort(port: string): void;
 }
 export default ONT;
-export { Account, Identity, Claim, retrievePublicKeyState, DDO, DDOAttribute, Transaction, Transfer, TxSignature, Parameter, ParameterType, AbiFunction, AbiInfo, TransactionBuilder, OntAssetTxBuilder, GovernanceTxBuilder, utils, scrypt, CONST, Wallet, SDK, Token, OntidContract, RestClient, RpcClient, WebsocketClient, Crypto, Struct, ScriptBuilder, NeoCore, Oep4, Oep8, Oep5 };
+export { Account, Identity, Claim, retrievePublicKey, DDO, DDOAttribute, Transaction, Transfer, TxSignature, Parameter, ParameterType, AbiFunction, AbiInfo, TransactionBuilder, OntAssetTxBuilder, GovernanceTxBuilder, utils, scrypt, CONST, Wallet, SDK, Token, OntidContract, RestClient, RpcClient, WebsocketClient, Crypto, Struct, ScriptBuilder, NeoCore, Oep4, Oep8, Oep5 };
